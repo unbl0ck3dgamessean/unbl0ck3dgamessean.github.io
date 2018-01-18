@@ -26,14 +26,6 @@
     li a:hover {
         background-color: #111111;
     }
-    object {
-      width: 100%;
-      height: 100%;
-    }
-    embed {
-      width: 100%;
-      height: 100%;
-    }
     </style>
   </head>
   <body>
@@ -43,11 +35,12 @@
       </ul>
       <h2>Blacksmith Lab</h2>
       <center>
-        <object>
-          <param name="movie" value="swfs/blacksmithLab.swf">
-          <embed src="swfs/blacksmithLab.swf">
-          </embed>
-        </object>
+        <div style="height:500px;">
+          <object style="height:100%;">
+            <param name="movie" value="swfs/blacksmithLab.swf">
+            <embed src="swfs/blacksmithLab.swf"></embed>
+          </object>
+        </div>
       </center>
   </body>
 </html>
